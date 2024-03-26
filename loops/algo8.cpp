@@ -5,10 +5,11 @@ int main() {
     cout << endl;
 
     int n;
-    cout << " Enter a valur for n: " << endl;
+    cout << " Enter a value for n: " << endl;
+    cin >> n ;
 
-    for ( int i=n  ; i >0; i++){
-        if (n/i==0){
+    for ( int i=1  ; i<=n; i++){
+        if (n%i==0){
             cout << i << endl;
         }
     }
