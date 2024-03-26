@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -10,7 +11,7 @@ int main() {
     cout << " Enter a value for n: " << endl;
     cin >> n ;
    
-    for(int i=2 ; i<n; ++i)
+    for(int i=2 ; i<=sqrt(n); ++i)
        if(n%i == 0){
         isPrime = false;
         break;
