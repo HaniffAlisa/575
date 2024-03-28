@@ -8,10 +8,10 @@ int main() {
 
     for(int i=0; i<DIM; ++i) {          
         for(int j=0; j<DIM; ++j) {      
-            if(i%2 !=0) {                
-                cout << " 0 ";
+            if(i ==DIM/2 || j ==DIM/2) {                       //middle row & middle column
+                cout << "X ";
             } else {                   
-                cout << " X ";
+                cout << "0 ";               //other locations
             }
         }
         cout << "\n";
