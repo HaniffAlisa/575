@@ -8,7 +8,7 @@ int main() {
 
     for(int i=0; i<DIM; ++i) {          // print rows
         for(int j=0; j<DIM; ++j) {      // print columns
-            if(j%2 == 0 && i%2!=0) {       
+            if( (i%2 == 0 && j%2==0) || (i%2 !=0 && j%2 !=0) ) {       
                 cout << "X ";
             } else {                    
                 cout << "0 ";
