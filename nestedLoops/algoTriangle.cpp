@@ -7,13 +7,14 @@ int main() {
 
     for(int i=0; i<n; ++i) {         
         for(int j=0; j<2*n-1; ++j) {     
-            if(j>=n-1-i && j){  
+            if(j>=n-1-i && j<n+i){  
                 cout<< "X ";
         }else {
             cout << "  ";
     }
-      cout << "\n";
+     
         }
+         cout << "\n";
     }
     cout << endl;
     return 0;
