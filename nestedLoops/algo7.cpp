@@ -6,19 +6,18 @@ int main() {
 
     const int n = 4;
 
-    for(int i=0; i<n; ++i) {          
-        for(int b=0; b<n; ++b) {   
-            for(int j==i)   {
-            if(j==i) {                  
+    for(int b=0; b<n; ++b) {          
+        for(int i=0; i<n; ++i) {   
+            for(int j=0; j<n; ++j)   {
+            if(j<=i) {                  
                 cout << "X ";
-            } else {
-                cout << "  ";
-            }
-        }}
+            } 
+            cout <<"\n ";
+        }  
         cout << "\n";
     }
 
     cout << endl;
-
+    }
     return 0;
 }
