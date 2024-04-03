@@ -9,7 +9,7 @@ int main() {
     for(int i=0 ; i<DIM; ++i){
         for (int j=0; j<DIM; ++j){
             if(i=DIM/2 && j=DIM/2){
-                cout << "X "<<endl;
+                cout << "X " << endl;
             }
             else{
                 cout<< "O "<< endl;
