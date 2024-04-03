@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/a_han/QccET575",
-      "program": "c:/Users/a_han/QccET575/build/Debug/outDebug",
+      "cwd": "c:/Users/a_han/QccET575/nestedLoops",
+      "program": "c:/Users/a_han/QccET575/nestedLoops/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
