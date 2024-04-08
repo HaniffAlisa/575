@@ -12,7 +12,7 @@ int main(){
 
     for(int r=1; r<=n; r++){
         for(int c=1; c<=2*n-1; c++){
-            if(c>=n-r+1 && c<=n+r-1){
+            if(c>=r && c<=2*n-r){
                 cout<< "X";
             } else{
             cout<< " ";
