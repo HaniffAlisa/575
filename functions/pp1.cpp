@@ -17,15 +17,15 @@ int main(){
     cout<<endl;
     return 0;
 }
-int square(intn) {
-    return multiply(n.n);
+int square(int n) {
+    return multiply(n*n);
 }
 int multiply(int x, int y){
     return x*y;
 }
 void hello(string  s) {
     cout<< "Hello " + s << "\n";
-    
+
 }
 
 
