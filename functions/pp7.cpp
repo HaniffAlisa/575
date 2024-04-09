@@ -1,21 +1,30 @@
 #include <iostream>
+#include<time.h>
 using namespace std;
 
-int perimeter(int l, int w);
-
+int area(int l, int w);
+int getMin(int x, int y);
+int randDecimal();
 
 int main(){
     cout << endl;
+    srand(time(NULL));
 
-    cout <<perimeter(5,3)<<"\n";
+    cout <<area(5,3)<<"\n";    //15
+    cout<<getMin(4,6)<<"\n";        //4
+    cout<<randDecimal() << "\n";    //outputs integer between 0 -9 inclusive
 
     cout<< endl;
-
-
-
-int perimeter(int l, int w) {
-    return (l*w);
+    return 0;
 }
 
-return 0;
+
+int area(int l, int w){
+    return l * w;
+}
+int getMin(int x, int y){
+    return x<=y ? x:y ;
+}
+int randDecimal(){
+    return rand() % 10;
 }
