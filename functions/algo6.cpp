@@ -4,20 +4,22 @@ using namespace std;
 int n=0;
 
 
-cout<<"Enter a value for n:"<<endl;
-cin>>n;
-
-int factors(int n){
-    if(n >0){
-        cout<<" Enter a positive number"<<endl;
-    }if else(x%n==0){
-        cout(n)
+void printFactors(int n){
+    for(int i=1; i<=n; ++i){
+        if(n%i==0){
+            cout << i << " ";
+        }
     }
-    }
-
-
+}
 
 
 int main(){
+ int n;
+ do{
+    cout<< "Enter a value for n: ";
+    cin >> n;
+ } while (!(n>=1)); 
 
+ cout <<endl;
+ return 0; 
 }
