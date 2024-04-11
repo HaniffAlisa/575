@@ -9,5 +9,7 @@ cin>>s;
 
 int main(){
 
+string reverse
+cout<<s.length
 
 }
