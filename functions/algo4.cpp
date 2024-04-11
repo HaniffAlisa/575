@@ -11,16 +11,32 @@ int n;
 cout<< "Enter a value for n: "<<endl;
 cin>>n;
 
-int factorial(n){
-    
+int factorial(int n){
+    int p=1;
+    for(int i=1; i<=n; ++i){
+        p*=i;
+    }
+   return p; 
+}
+int summation(int n){
+    int p=0;
+    for(int i=1; i<=n; ++i){
+        p+=i;
+    }
+    return p;
 }
 
 
 int main(){
-    cout <<endl;
+    cout << endl;
 
+    int n;
+    cout << "Enter a value for n:";
+    cin >>n;
+
+    cout 
     
-    cout<<endl;
+    cout <<endl;
 
     return 0;
 }
