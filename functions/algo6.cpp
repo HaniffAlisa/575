@@ -10,15 +10,24 @@ void printFactors(int n){
             cout << i << " ";
         }
     }
+    cout<< endl;
 }
 
 
 int main(){
- int n;
+ int n , count = 0;
+
  do{
     cout<< "Enter a value for n: ";
     cin >> n;
- } while (!(n>=1)); 
+    if(n<1) {break;}
+    printFactors(n);
+    cout <<endl;
+    ++count; 
+ } while (n>=1)  ;
+
+cout<< " We printed factors " << count << " times. " <<endl;
+ 
 
  cout <<endl;
  return 0; 
