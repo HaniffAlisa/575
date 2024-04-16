@@ -22,7 +22,7 @@ int numDigits(long n) {
 int main( ) {
     cout << endl;
 
-    long n = 3654562;
+    long n = 5432;
     cout << numDigits(n) << "\n";
 
     cout << endl;
