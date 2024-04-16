@@ -4,14 +4,14 @@ using namespace std;
 int main(){
     cout << endl;
 
-    int countUp(int n) {
-    if(n==5) {              
+    void countUp(int n){
+    if(n==1) {              
         cout << n << "\n";  
-        return;             
+        return ;             
     }
-                            
+    countUp(n-1);                        
     cout << n << "\n";      
-    countUp(n+1);         
+            
 }
 
 int main( ) {
