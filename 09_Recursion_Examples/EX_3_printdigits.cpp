@@ -27,7 +27,7 @@ void printDigits(long n) {
 int main( ) {
     cout << endl;
 
-    long n = 2345;
+    long n = 73624;
     printDigits(n);
 
     cout << endl;
