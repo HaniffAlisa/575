@@ -26,7 +26,7 @@ void countDown(int n) {
 int main( ) {
     cout << endl;
 
-    countDown(10);
+    countDown(5);
 
     cout << endl;
     return 0;
