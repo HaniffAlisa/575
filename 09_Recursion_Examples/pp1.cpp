@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    cout << endl;
 
     void countUp(int n){
     if(n==1) {              
@@ -20,5 +18,4 @@ int main( ) {
     countUp(5);
 
     return 0;
-}
 }
