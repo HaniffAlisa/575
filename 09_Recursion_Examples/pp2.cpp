@@ -1,22 +1,21 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-int pow(int n, int e) {
+int power(int n, int e) {
     if(e==0)     {
         return 1;
     }
               
-        return pow(n, e-1) *n;                                                                   
+        return power(n, e-1) * n;                                                                   
 }
 int main( ) {
     cout << endl;
 
-    int n;
-    cout << "Enter a positive integer: ";
-    cin >> n;
+    int n ,e;
+    cout << "Enter a positive integer and exponent: ";
+    cin >> n >>e ;
 
-    cout << pow(n) << endl;
+    cout << power(n ,e) << endl;
 
     cout << endl;
     return 0;
