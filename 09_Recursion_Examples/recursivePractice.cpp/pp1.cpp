@@ -3,12 +3,14 @@ using namespace std;
 
 void countUp(int n) {
     if (n==1) {
-        count << n<< "\n";
+        cout << n<< "\n";
         return;
     }
 
     countUp(n-1);
     cout << n << "\n";
+    
+
 }
 int main () {
     cout <<endl;
@@ -17,6 +19,8 @@ int main () {
     cout << "Enter a positive integer: " << endl;
     cin >> n;
 
+
+    cout << endl;
     countUp(n);
     return 0;
 }
