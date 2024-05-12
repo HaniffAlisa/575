@@ -20,10 +20,11 @@ int main(){
         for(int j=0; j<COL; ++j){
             cout<< a[i][j]<<" ";
 }
-cout<<endl;
+    cout<<endl;
+
     }
     int c;
-    cout<<"\n" << "ENter a column to print: ";
+    cout<<"\nEnter a column to print: ";
     cin >> c;
 
     for(int i=0; i<ROW; ++i){
