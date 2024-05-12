@@ -17,7 +17,7 @@ int main(){
         }
     }
     for(int i=0; i<ROW; ++i){
-        for(int j=0; i<COL; ++j){
+        for(int j=0; j<COL; ++j){
             cout<< a[i][j]<<" ";
 }
 cout<<endl;
