@@ -1,20 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main() //main function
-{
+void countDown(int n){
+    if(n==1){
+        cout<<n<<endl;
+        return;
+    }
+    cout<< n <<endl;
+    countDown(n-1);
+}
+int main(){
+    cout<<endl;
 
-    string a = "A";
-    string b = "B";
+    int n;
+    cout<< "Enter an integer: "<<endl;
+    cin >> n;
 
-    //swap the variable of both variables
-    string temp = a;   //backup first varibles
-    a = b;             //replace first with second
-    b = temp;           //replace second with backup(original first)
-
-    cout << a << " " << b << endl;
-   
-    cout << endl;
-
+    countDown(n);
     return 0;
 }
