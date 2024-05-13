@@ -11,10 +11,10 @@ int countDigits(int n){
 
 int main(){
     cout <<endl;
-   long n;
+    long n;
     cout<< "Enter a number with multiple digits: "<<endl;
     cin >> n;
 
-    countDigits(n);
+    cout << countDigits(n) << endl;
     return 0;
 }
