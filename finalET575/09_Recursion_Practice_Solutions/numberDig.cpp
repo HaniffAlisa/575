@@ -11,7 +11,7 @@ int countDigits(int n){
 
 int main(){
     cout <<endl;
-    int n;
+   long n;
     cout<< "Enter a number with multiple digits: "<<endl;
     cin >> n;
 
