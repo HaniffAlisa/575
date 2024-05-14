@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
 
-void summation(int n){
-    for(n==1){
-        cout<< n<< "\n";
-        return;
+int summation(int n){
+    if(n==1){
+        return 1;
     }
-    summation(n-1)+n;
+    return summation(n-1)+n;
 }
 int main(){
     cout<< endl;
@@ -14,6 +13,7 @@ int main(){
     int n;
     cout<< "Enter a positive integer: ";
     cin >> n;
-    
+
+    cout << summation(n)<< endl;
     return 0;
 }
